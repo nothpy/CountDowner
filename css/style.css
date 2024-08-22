@@ -1,0 +1,99 @@
+/* *{
+    padding: 0;
+    margin : 0;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: url(../images/lion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overlay{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0,0.5);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    border: 2px solid white;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 3rem;
+    color: chartreuse;
+}
+.col{
+    width: 1000px;
+    height: 100px;
+    border: 1px solid chartreuse;
+    display: flex;
+    justify-content: center;
+}
+.col div{
+    /* width: 250px; */
+    /* text-align: center; 
+}
+input{
+   width: 54%;
+    text-align: center;
+    /* justify-content: center; */
+    /*display: block;
+    width: 60%;
+    height: 50%;
+} */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+.main {
+    width: 100%;
+    height: 100vh;
+    background: url('../images/lion.jpg') center center;
+    background-size: cover;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.title {
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.col{
+    background-color: red;
+    margin-top: 20px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.col div {
+    width: 250px;
+    text-align: center;
+}
+
+input {
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-color: transparent;
+    border-radius: 5px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+}
