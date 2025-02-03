@@ -15,7 +15,7 @@ function clock() {
 
     if (diff < 0)
     {
-        document.getElementById("t").style.backgroundColor="red";   
+        document.getElementById("t").style.backgroundColor="blue";   
         return;
     } 
 
